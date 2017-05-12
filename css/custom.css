@@ -15,3 +15,9 @@ Override Bootstrap Classes
 .thumbnail {
   border: none;
 }
+
+.header {
+  background-image: url('../images/3-part-line.png');
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
