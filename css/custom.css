@@ -1,6 +1,9 @@
 h1 {
   color: #d80927;
 }
+h2, h3, h4, h5, h6 {
+  color: #555555;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
@@ -11,13 +14,13 @@ h1, h2, h3, h4, h5, h6 {
 Override Bootstrap Classes
 ***************************
 */
-
-.thumbnail {
-  border: none;
-}
-
 .header {
   background-image: url('../images/3-part-line.png');
   background-repeat: no-repeat;
   margin-top: 20px;
+  padding-top: 15px;
+}
+
+.thumbnail {
+  border: none;
 }
