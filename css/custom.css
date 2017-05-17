@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
 h1 {
   color: #d80927;
 }
@@ -5,7 +7,8 @@ h2, h3, h4, h5, h6 {
   color: #555555;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", sans-serif;
+  /*font-family: "PT Sans", sans-serif;*/
+  font-family: "Lato", sans-serif;
   font-weight: 400;
 }
 
@@ -14,6 +17,21 @@ h1, h2, h3, h4, h5, h6 {
 Override Bootstrap Classes
 ***************************
 */
+html {
+  /*background: #40bec1;*/
+}
+body {
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*padding-top: 25px;
+  background: #00aab8;
+  background: linear-gradient(#00aab8, #30638E); */
+
+}
+.container {
+  background-color: white;
+}
 .header {
   background-image: url('../images/3-part-line.png');
   background-repeat: no-repeat;
