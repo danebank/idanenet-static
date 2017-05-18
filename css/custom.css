@@ -27,17 +27,26 @@ body {
   /*padding-top: 25px;
   background: #00aab8;
   background: linear-gradient(#00aab8, #30638E); */
-
 }
+
+.header-image {
+  background-image: url('../images/header-120px.png');
+  background-size: cover;
+  height:120px;
+  margin-top: 15px;
+  padding-top: 42px;
+}
+
+.header-image .text-right {
+  color: #00453e;
+}
+
 .container {
   background-color: white;
+  max-width: 1170px;
+  min-width: 450px;
 }
-.header {
-  background-image: url('../images/3-part-line.png');
-  background-repeat: no-repeat;
-  margin-top: 15px;
-  padding-top: 15px;
-}
+
 
 .thumbnail {
   border: none;
