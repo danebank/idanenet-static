@@ -44,10 +44,15 @@ body {
 .container {
   background-color: white;
   max-width: 1170px;
-  min-width: 450px;
+  /*min-width: 450px;*/
 }
-
 
 .thumbnail {
   border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .hidden-xs {
+        display:none;
+    }
 }
