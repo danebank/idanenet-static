@@ -30,7 +30,7 @@ body {
 }
 
 .header-image {
-  background-image: url('../images/header-120px.png');
+  background-image: url('../images/header-120px.svg');
   background-size: cover;
   height:120px;
   margin-top: 15px;
