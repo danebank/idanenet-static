@@ -24,9 +24,9 @@ body {
   background-image: url('../images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  /*padding-top: 25px;
-  background: #00aab8;
-  background: linear-gradient(#00aab8, #30638E); */
+  border-top-style: solid;
+  border-top-color: #00aab8;
+  border-top-width: 20px;
 }
 
 .header-image {
