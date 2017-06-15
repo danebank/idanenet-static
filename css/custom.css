@@ -2,11 +2,14 @@
 
 h1 {
   color: #d80927;
+  font-size: 42px;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
 }
 h2, h3, h4, h5, h6 {
   color: #555555;
 }
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   /*font-family: "PT Sans", sans-serif;*/
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -17,11 +20,12 @@ h1, h2, h3, h4, h5, h6 {
 Override Bootstrap Classes
 ***************************
 */
+
 html {
   /*background: #40bec1;*/
 }
 body {
-  background-image: url('../images/background.jpg');
+  /*background-image: url('../images/background.jpg');*/
   background-repeat: no-repeat;
   background-size: cover;
   border-top-style: solid;
@@ -47,8 +51,38 @@ body {
   /*min-width: 450px;*/
 }
 
+.header {
+  /*padding-left: 40px;
+  padding-right: 40px;*/
+}
+
 .thumbnail {
+  min-height: 110px;
+  max-height: 200px;
+  padding: 0px;
   border: none;
+  /*background-color: #ffdcf1; */
+  background-color: #e7fcff;
+  /* http://stacktips.com/tutorials/bootstrap/how-to-display-text-overlay-on-a-responsive-image-in-bootstrap */
+}
+
+.thumbnail .caption {
+  padding: 0px;
+}
+
+.caption {
+  /*background-color: #ff2ea9;*/
+  background-color: #4acee0;
+  width:85%;
+  bottom: .3rem;
+  position: relative;
+}
+
+.caption h5 {
+  color: #fff;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 767px) {
