@@ -61,7 +61,6 @@ body {
   max-height: 200px;
   padding: 0px;
   border: none;
-  /*background-color: #ffdcf1; */
   background-color: #e7fcff;
   /* http://stacktips.com/tutorials/bootstrap/how-to-display-text-overlay-on-a-responsive-image-in-bootstrap */
 }
@@ -70,8 +69,11 @@ body {
   padding: 0px;
 }
 
+.thumbnail a {
+  text-decoration: none;
+}
+
 .caption {
-  /*background-color: #ff2ea9;*/
   background-color: #4acee0;
   width:85%;
   bottom: .3rem;
@@ -83,6 +85,69 @@ body {
   text-align: left;
   -webkit-font-smoothing: antialiased;
   margin-left: 10px;
+  text-decoration: none;
+}
+
+/*
+******************************
+Icon Background Colour Schemes
+******************************
+*/
+.thumbnail-green {
+  background-color: #e7fcff;
+}
+
+.thumbnail-green .caption {
+  background-color: #00aabd;
+}
+
+.thumbnail-yellow {
+  background-color: #fff7cd;
+}
+.thumbnail-yellow .caption {
+  background-color: #ffd608;
+}
+
+.thumbnail-canvas {
+  background-color: #ffd5d0;
+}
+.thumbnail-canvas .caption {
+  background-color: #e33d29;
+}
+
+.thumbnail-clickview {
+  background-color: #ffe0b9;
+}
+.thumbnail-clickview .caption {
+  background-color: #f8981d;
+}
+
+.thumbnail-junior {
+  background-color: #fad5ff;
+}
+.thumbnail-junior .caption {
+  background-color: #82368c;
+}
+
+.thumbnail-pink {
+  background-color: #ffccea;
+}
+.thumbnail-pink .caption {
+  background-color: #ff2fa9;
+}
+
+.thumbnail-overdrive {
+  background-color: #d9f2fe;
+}
+.thumbnail-overdrive .caption {
+  background-color: #006594;
+}
+
+.thumbnail-gmail {
+  background-color: #ffdcd8;
+}
+.thumbnail-gmail .caption {
+  background-color: #d54b3d;
 }
 
 @media screen and (max-width: 767px) {
