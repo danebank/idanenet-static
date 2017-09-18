@@ -1,3 +1,10 @@
+/* DANEBANK COLOURS *
+* Light Green #00aab8 -> #e7fcff
+* Dark Green  #00453e -> #99cccc
+* Red         #d80927 -> #ffcccc
+* Grey        #444 ?i think?
+********************/
+
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,500);
 
 h1 {
@@ -49,12 +56,20 @@ body {
 
 .container {
   max-width: 1170px;
+
   /*min-width: 450px;*/
 }
 
 .header {
   /*padding-left: 40px;
   padding-right: 40px;*/
+}
+
+.footer {
+  /*background: blue;
+  height: 3em;
+  position: fixed; bottom: 0;*/
+  width: 100%;
 }
 
 .thumbnail {
