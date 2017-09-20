@@ -26,7 +26,14 @@ h3 {
 }
 h4 {
   font-size: 1.2rem;
+  font-style: italic;
 }
+a {
+  color: #00aab8;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 
 
 /*
@@ -41,6 +48,7 @@ html {
 body {
   font-family: Lato;
   font-weight: normal;
+  line-height: 1.2;
   min-height: 100%;
   background-image: url('../images/background.svg');
   background-repeat: no-repeat;
@@ -57,6 +65,10 @@ body {
   height:120px;
   margin-top: 15px;
   padding-top: 42px;
+}
+
+.header a, a:hover {
+  text-decoration: none;
 }
 
 .header-image .text-right {
@@ -109,6 +121,10 @@ body {
   text-decoration: none;
   font-size: 0.9rem;
   margin-left: 10px;
+}
+
+.btn {
+  margin-bottom: 6px;
 }
 
 /*
