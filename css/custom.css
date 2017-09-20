@@ -139,7 +139,7 @@ Icon Background Colour Schemes
 }
 
 .thumbnail-junior {
-  background-color: #fad5ff;
+  background-color: #fdefff;
 }
 .thumbnail-junior .caption {
   background-color: #82368c;
@@ -165,6 +165,25 @@ Icon Background Colour Schemes
 .thumbnail-gmail .caption {
   background-color: #d54b3d;
 }
+
+.thumbnail-onguard {
+  background-color: #e7f2ff;
+}
+.thumbnail-onguard .caption {
+  background-color: #05458f;
+}
+
+.thumbnail-complispace .caption {
+  background-color: #00adef;
+}
+
+.thumbnail-o365 {
+  background-color: #ffd5d0;
+}
+.thumbnail-o365 .caption {
+  background-color: #eb3c00;
+}
+
 
 @media screen and (max-width: 767px) {
     .hidden-xs {
