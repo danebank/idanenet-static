@@ -52,11 +52,14 @@ body {
   min-height: 100%;
   background-image: url('../images/background.svg');
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-attachment: fixed;
+  background-size: 75%;
+  /*background-size: cover;*/
   background-position: bottom right;
   border-top-style: solid;
   border-top-color: #00aab8;
   border-top-width: 20px;
+
 }
 
 .header-image {
@@ -99,6 +102,12 @@ body {
   /* http://stacktips.com/tutorials/bootstrap/how-to-display-text-overlay-on-a-responsive-image-in-bootstrap */
 }
 
+/*
+.thumbnail:hover {
+  transition: .5s ease;
+  opacity: 0.3;
+}*/
+
 .thumbnail .caption {
   padding: 0px;
   margin-top: 5px;
@@ -119,12 +128,34 @@ body {
   text-align: left;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   margin-left: 10px;
 }
 
 .btn {
   margin-bottom: 6px;
+}
+
+/* Grow */
+.hvr-grow {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hvr-grow:active {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 0.8;
 }
 
 /*
@@ -182,18 +213,73 @@ Icon Background Colour Schemes
   background-color: #006594;
 }
 
+.thumbnail-lightpink {
+  background-color: #faf3fb;
+}
+
+.thumbnail-lightpink .caption {
+  background-color: #82368c;
+}
+
+.thumbnail-lightmaroon {
+  background-color: #ffe2ee;
+}
+
+.thumbnail-lightmaroon .caption {
+  background-color: #ca2359;
+}
+
+.thumbnail-lightred {
+  background-color: #ffedea;
+}
+
+.thumbnail-lightred .caption {
+  background-color: #d0210c;
+}
+
+.thumbnail-lightorange {
+  background-color: #fff0dd;
+}
+
+.thumbnail-lightorange .caption {
+  background-color: #ff9b55;
+}
+
+.thumbnail-lightblue {
+  background-color: #e0f5ff;
+}
+
+.thumbnail-lightblue .caption {
+  background-color: #007db7;
+}
+
+.thumbnail-lightgold {
+  background-color: #fff6dd;
+}
+
+.thumbnail-lightgold .caption {
+  background-color: #ffc544;
+}
+
+.thumbnail-lightpurple {
+  background-color: #e7f2ff;
+}
+.thumbnail-lightpurple .caption {
+  background-color: #05458f;
+}
+
+.thumbnail-lightbrown {
+  background-color: #fff3e7;
+}
+.thumbnail-lightbrown .caption {
+  background-color: #b17d3d;
+}
+
 .thumbnail-gmail {
   background-color: #ffdcd8;
 }
 .thumbnail-gmail .caption {
   background-color: #d54b3d;
-}
-
-.thumbnail-onguard {
-  background-color: #e7f2ff;
-}
-.thumbnail-onguard .caption {
-  background-color: #05458f;
 }
 
 .thumbnail-complispace .caption {
